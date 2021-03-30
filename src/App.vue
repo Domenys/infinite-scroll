@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Домой</router-link> |
+      <router-link to="/infiniteScroll">Бесконечная прокрутка</router-link> |
+      <router-link to="/infiniteScroll2">Бесконечная прокрутка 2</router-link>
     </div>
     <router-view/>
   </div>
